@@ -1,4 +1,6 @@
-## Høyne din kodekvalitet med statisk typing og hissig linting
+# SYSTEK
+
+### Høyne din kodekvalitet med statisk typing og hissig linting
 
 ---
 
@@ -6,16 +8,32 @@
 
 ---
 
-* Pleide sitte som herre i egen borg
-* Moderne applikasjon >> 10 000 l. kode javascript
-* Konsulenttilværelse - oftere bytte 
 
-**Årets julegave til deg selv får du i år tilbake med samme monn: Lesbar, forståelig
+* Pleide sitte som herre i egen borg
+* global.js &lt; 500 l. kode
+* Moderne applikasjon &gt; 10 000 l. kode javascript
+* Konsulenttilværelse - oftere bytte
+* Ettermæle
+
+---
+
+<img src="http://localhost:1948/_assets/img/nissegrot_pasta.jpg" alt="Pizza" style="width: 400px; height:300px"/>
+
+---
+
+
+### Årets julegave til deg selv
+
+**Lesbar, forståelig
  og forvaltbar kode**
+
+Note: år du i år tilbake med samme monn:
 
 ---
 
 ### Hvordan forbedre kodekvalitet?
+
+Note:
 
 Ulike virkemidler
 
@@ -26,7 +44,13 @@ Først se på roten
 ### JavaScript
 
 * Laget med henblikk på validering av forms
-* Utviklet til å støtte moderne behov : ES5, ES6, ES2016, ES2017... osv 
+* Utviklet til å støtte moderne behov : ES5, ES6, ES2016, ES2017... osv
+* jQoery, Lodash, Vue, Ember, Angular, React, Elm
+
+<br />
+<img src="http://localhost:1948/_assets/img/pizzabonanza.png" alt="Pizza" style="width: 400px; height:300px"/>
+
+
 
 ---
 
