@@ -1,0 +1,19 @@
+{
+  "name": "systek-morgenmote-kodekvalitet",
+  "version": "1.0.0",
+  "description": "notater og eksempler til foredragom kodekvalitet",
+  "main": "start.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansogj/systek-morgenmote-kodekvalitet.git"
+  },
+  "author": "hansogj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hansogj/systek-morgenmote-kodekvalitet/issues"
+  },
+  "homepage": "https://github.com/hansogj/systek-morgenmote-kodekvalitet#readme"
+}
