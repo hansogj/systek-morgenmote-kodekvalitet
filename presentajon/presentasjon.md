@@ -22,7 +22,7 @@
 * Laget med henblikk på validering av forms
 * Dynamisk typet 
 * Utviklet til å støtte moderne behov:
-  <span style="font-size: smaller">ES5, ES6, ES2016, ES2017... </span>
+  <span class="smaller">ES5, ES6, ES2016, ES2017... </span>
 * jQoery, Lodash, Vue, Ember, Angular, React, Elm
 
 ---
@@ -64,7 +64,7 @@ Now, look at the Atomic Kitten!
 
 <img src="http://localhost:1948/_assets/img/atomic_kitten.jpg" alt="Lady og Landstrykeren" style="width: 400px; height:300px"/>
 
-Note: Hovran  forbedre kodekvalitet?
+Note: Hovrdan  forbedre kodekvalitet?
 
 Ulike virkemidler
 
@@ -99,14 +99,14 @@ _Oxford Dictionary_
 
 ---
 
-I vår verden:
+#### I vår verden:
 
 _Statisk analyse av kildekode for å detektere brudd på definerte regler_
 
 
 ---
 
-### Linting i JavaScript
+#### Linting i JavaScript
 
 * JSLint - 2002 - Douglas Crockford. Sjekker om JS-kode følger kodereglene 
 * JSHint - 2010 - Anton Kovalyov. Fork av JSLint for bedre tilpassing av reglene 
@@ -122,7 +122,7 @@ ESLINT  (industristandard)
 
 ---
 
-Bli kvitt rusket i din kode
+#### Bli kvitt rusket i din kode
 
 ```bash
 npm install -g eslint
@@ -148,7 +148,7 @@ Note: eslint --init lager en .eslintrc.js fil for deg
 Du får hjelp av --init til å sette opp en konfig
 
 ```bash
-/git/array.onempty[flow-example] $ node node_modules/.bin/eslint --init
+/git/myRepo[example] $ node node_modules/.bin/eslint --init
 ? How would you like to configure ESLint? Use a popular style guide
 ? Which style guide do you want to follow? (Use arrow keys)
 ❯ Google 
@@ -189,11 +189,15 @@ module.exports = {
 ```
 
 
-----
+---
 
-### Strategi
+
+## Strategi
+
 
 ---
+
+#### Nytt repo
 
 ```javascript
 {
@@ -203,21 +207,115 @@ module.exports = {
 
 ---
 
-Eksisterne de kode
+#### Eksisternede kode
 
 ```javascript
-{
+
+    "rules": {
         "quotes": [
             "error",
             "double"
         ]
-
 }
 ```
 
+Note: begynn i det små og legg til gradvis sterker og sterke regler
+
 ---
 
-----------------------------
+
+<img src="http://localhost:1948/_assets/img/Hangman_game.png" alt="HangManStyle" style="width: 400px; height:300px"/>
+
+---
+
+
+<img src="http://localhost:1948/_assets/img/bonzai_kitten.jpg" alt="Bonzai" style="width: 400px; height:300px"/>
+
+
+---
+
+
+# Statisk typing
+
+---
+
+
+_Ikke alle er like happy med å skrive  JavaScript på det formatet som støttes av nettleseren. Derfor er det
+laget et mylder av ulike språk som kan kompileres ned til JavaScript slik at det kan nyttes i nettlesern_
+
+---
+
+## Sukker
+
+---
+
+* CoffeScript
+* LiveScript
+* NodeScript (!= Node.JS)
+* LispyScript
+* ClojureJS/ClojureScript
+* Elm
+* TypeScript
+* Flow
+
+<span class="smaller">https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js</span>
+
+
+Note: 
+
+For mange er slike språk med på å effektivisere arbeidshverdagen i det man kan
+uttrykke seg mer konsist, eller forståelig eller bygge strukturen i koden etter
+eget hjerte, MEN en kan ikke utrykke noe mer enn i JavaScript ettersom alt
+kompileres ned til JavaScript som igjen tolkes av nettleseren
+
+
+---
+
+## Statisk vs dynamisk typing
+
+* Statisk typede språk:  variabeltyper sjekkes compile-time
+* Dynamsisk typede språk:  sjekkes først runtime
+* * større frihet til å mikse tyer 
+* * kræsjer hvis det ikke tas høyde for typekonflikter
+
+---
+
+
+#### Fordeler med statisk typede språk
+* Forbedret autofullfør i IDE
+* Økt performance (norsk)
+* Større grad av selvdokumentasjon
+* Forenkler søk i koden - IDEen kan lede deg dirrekte til feks
+  funksjonsdefinisjonen
+* Reduserer uforutsette feil feks brukerinputtvalidering
+
+
+
+note:
+# Fordeler med dynamisk typede språk
+* Mer konsist / mindre verbost
+* Slipper å vente på kompilering > rett i interpreter > instant feedback til
+  utvikler
+* Slipper å bruke tid på å uttrykke seg korrekt - mer fleksibilitet
+* Slipper å refaktorisere hele kodebasen ved typeendringer (men må bruke tid på
+  testing istede)
+* dokumenterer kontrakten med backend. Spesifiserer domeneobjekter
+
+
+VI SKAL SE PÅ TO ULIKE TILNÆRMINGER TIL STATISK TYPING I JAVASCRIPT
+
+---
+
+## FLOW 
+
+
+
+LOL
+## TypeScript
+LOL
+
+
+-------------------
 
 ## FLOW
 LOL

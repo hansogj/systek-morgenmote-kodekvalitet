@@ -23,24 +23,25 @@ body {
     position: relative;
     cursor: auto;
 }
-.reveal .slide-number {
 
+.reveal .slide-number {
     display: block !important;
     height: 10%;
     background-image: url('/_assets/img/wave.png');
     background-repeat: repeat-x;
     width:100%
-
-
 }
 
-
+.reveal .smaller {
+    font-size: 0.7em
+}
 
 .reveal {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 42px;
     font-weight: normal;
     color: #222; }
+
 
 ::selection {
     color: #fff;

@@ -234,7 +234,7 @@ body {
     vertical-align: top; }
 
 
-.reveal .smaller {
+ .smaller {
     font-size: 0.7em
 }
 /*********************************************
